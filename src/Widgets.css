@@ -1,0 +1,49 @@
+.Widgets{
+    position: sticky;
+    top: 80px;
+    flex: 0.3;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: fit-content;
+    padding-bottom: 14px;
+}
+
+.WidgetsHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.WidgetsHeader h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.WidgetsArticle{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.WidgetsArticle:hover{
+    background-color: whitesmoke;
+}
+
+.WidgetsArticleLeft{
+    color: #0177b7;
+    margin-right: 5px;
+}
+
+.WidgetsArticleLeft .MuiSvgIcon-root{
+    font-size: 15px;
+
+    /* The class 'MuiSvgIcon-root' will indicate the icon. */
+
+}
+
+.WidgetsArticleRight p{
+    font-size: 12px;
+    color: gray;
+}

@@ -1,0 +1,26 @@
+.headerOption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+    cursor: pointer;
+    margin-right: 15px;
+    /*This will give the clickable type of appearance.*/
+}
+
+.headerOption:hover{
+    color: black;
+}
+
+.headerOptionTitle{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.headerOptionIcon{
+    object-fit: contain;
+    height: 30px !important;
+    width: 30px !important;
+    /*The !important overrides the material UI styling.*/
+}
+

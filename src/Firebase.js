@@ -2,12 +2,12 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore, collection } from 'firebase/firestore';
 import { getAuth,setPersistence, browserSessionPersistence } from "firebase/auth";
 const firebaseConfig = {
-    apiKey: "AIzaSyAG7xEpQmOZ73LlvFArxDt-SOeMP7RcVsQ",
-    authDomain: "linkedin-clone-693dd.firebaseapp.com",
-    projectId: "linkedin-clone-693dd",
-    storageBucket: "linkedin-clone-693dd.appspot.com",
-    messagingSenderId: "111168076355",
-    appId: "1:111168076355:web:b8515ea716a757fc5532f6"
+    apiKey: process.env.apiKey,
+    authDomain: process.env.authDomain,
+    projectId: process.env.projectId,
+    storageBucket: process.env.storageBucket,
+    messagingSenderId: process.env.messagingSenderId,
+    appId: process.env.appId
   };
 
   const firebaseApp = initializeApp(firebaseConfig);
